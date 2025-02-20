@@ -1,0 +1,22 @@
+/*   
+Theme Name: Morning Time Child Theme
+Theme URI:
+Description: Use this theme to start your Morning Time Child Theme development.
+Author: WPlook Studio, Victor Tihai
+Author URI: https://wplook.com/
+Template: morningtime-wpl
+Version: 1.0.0
+*/
+
+@import url('../morningtime-wpl/style.css');
+
+.slider-home .slide {
+	height: 300px !important;
+}
+
+.header .top-bar .name h1 a {text-transform: none;}
+.header .top-bar .name h1 small {text-transform: none;}
+
+.top-bar-section .dropdown li {min-width: 180px;}
+
+.section-featured-image { height: 300px; }

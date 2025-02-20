@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LibraryCategories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LibraryCategories.xsd">
+    <LibraryCategory>
+        <Id>5689440e-a447-41b7-86d6-68e81712b485</Id>
+        <Version>1.0.0.0</Version>
+        <DefaultName>LibTestCat</DefaultName>
+    </LibraryCategory>
+    <LibraryCategory>
+        <Id>e42e9899-3114-40a3-911f-5f44e2769932</Id>
+        <Version>1.0.0.0</Version>
+        <ParentCategory>
+            <Id>5689440e-a447-41b7-86d6-68e81712b485</Id>
+        </ParentCategory>
+        <DefaultName>SubCategory</DefaultName>
+    </LibraryCategory>
+</LibraryCategories>

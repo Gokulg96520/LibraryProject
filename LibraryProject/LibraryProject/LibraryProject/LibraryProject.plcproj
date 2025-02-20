@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{be6e3a67-0d62-436f-9e45-d3c8870388a8}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <DownloadApplicationInfo>true</DownloadApplicationInfo>
+    <WriteProductVersion>true</WriteProductVersion>
+    <GenerateTpy>false</GenerateTpy>
+    <Name>LibraryProject</Name>
+    <ProgramVersion>3.1.4024.0</ProgramVersion>
+    <Application>{78646357-a91a-4ff4-8c76-704f7a4b2aea}</Application>
+    <TypeSystem>{0d61d8c3-f39e-4c2f-97cf-d8e08f8a13c4}</TypeSystem>
+    <Implicit_Task_Info>{bd980941-e49c-408f-b5f2-f3ef20551f6d}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{57b96be2-e195-4add-b04e-917512cbc709}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{f224d289-173f-4927-93c0-716cfbaf8e68}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{175d1431-133f-45de-a616-8d662f13ee8e}</LibraryReferences>
+    <Released>false</Released>
+    <Company>My Automation Company</Company>
+    <Title>Library Project</Title>
+    <ProjectVersion>1.0.0.1</ProjectVersion>
+    <DefaultNamespace>LibraryProject</DefaultNamespace>
+    <Placeholder>MyNewLibary</Placeholder>
+    <Author>Author Name</Author>
+    <Description>Explain</Description>
+    <LibraryCategories>
+      <LibraryCategory xmlns="">
+        <Id>{5689440e-a447-41b7-86d6-68e81712b485}</Id>
+        <Version>1.0.0.0</Version>
+        <DefaultName>LibTestCat</DefaultName>
+      </LibraryCategory>
+      <LibraryCategory xmlns="">
+        <Id>{e42e9899-3114-40a3-911f-5f44e2769932}</Id>
+        <Version>1.0.0.0</Version>
+        <ParentCategory>
+          <Id>{5689440e-a447-41b7-86d6-68e81712b485}</Id>
+        </ParentCategory>
+        <DefaultName>SubCategory</DefaultName>
+      </LibraryCategory>
+    </LibraryCategories>
+    <SelectedLibraryCategories>
+      <Id>{5689440e-a447-41b7-86d6-68e81712b485}</Id>
+      <Id>{e42e9899-3114-40a3-911f-5f44e2769932}</Id>
+    </SelectedLibraryCategories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="myFB" />
+    <Folder Include="ProjectInformation" />
+    <Folder Include="Version" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="myFB\FB_MyFB1.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myFB\FB_MyFB2.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectInformation\F_GetCompany.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectInformation\F_GetTitle.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectInformation\F_GetVersion.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Version\Global_Version.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LibraryProject.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <ProjectExtensions>
+    <PlcProjectOptions>
+      <XmlArchive>
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
+      <v n="Name">"&lt;ProjectRoot&gt;"</v>
+      <d n="SubKeys" t="Hashtable" />
+      <d n="Values" t="Hashtable" />
+    </o>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
+    </PlcProjectOptions>
+  </ProjectExtensions>
+</Project>
