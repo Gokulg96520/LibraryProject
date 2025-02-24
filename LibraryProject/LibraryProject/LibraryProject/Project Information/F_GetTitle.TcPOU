@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.14">
-  <POU Name="F_GetCompany" Id="{4d6e9b97-0428-4b79-83fe-485772be9611}" SpecialFunc="None">
+  <POU Name="F_GetTitle" Id="{5e39cd09-29e2-425d-a8f0-d11322f5ed27}" SpecialFunc="None">
     <Declaration><![CDATA[// This function has been automatically generated from the project information.
 {attribute 'signature_flag' := '1073741824'}
 {attribute 'TcGenerated'}
 {attribute 'no-analysis'}
-FUNCTION F_GetCompany : WSTRING
+FUNCTION F_GetTitle : WSTRING
 VAR_INPUT
 	
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[F_GetCompany := "My Automation Company";
+      <ST><![CDATA[F_GetTitle := "Library Project";
 ]]></ST>
     </Implementation>
   </POU>
